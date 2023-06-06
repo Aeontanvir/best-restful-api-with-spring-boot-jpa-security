@@ -1,4 +1,4 @@
-package com.aeontanvir.projectcosting.entity;
+package com.aeontanvir.projectcosting.domains;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
