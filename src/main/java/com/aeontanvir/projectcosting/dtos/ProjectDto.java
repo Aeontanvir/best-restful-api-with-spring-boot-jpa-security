@@ -1,13 +1,15 @@
 package com.aeontanvir.projectcosting.dtos;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class PorjectDto {
+public class ProjectDto {
     private long id;
     private String title;
     private String description;
