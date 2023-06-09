@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Component
-public class ModelMapperHelper<T, E> {
+public class ModelMapperHelper{
 
     @Autowired
     private ModelMapper modelMapper;
